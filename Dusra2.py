@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+from datetime import datetime
 
 # Set up Google Sheets API credentials
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
@@ -19,7 +20,7 @@ with col1:
 
 with col2:
     st.image("images.png", width=150)
-    
+
 # Title of the app
 st.markdown("<h3>Waste Audit Sheet</h3>", unsafe_allow_html=True)
 
@@ -51,8 +52,6 @@ df = pd.DataFrame(data, columns=column_names)
 # Display the DataFrame with editing capabilities
 edited_df = st.data_editor(df, num_rows=rows)
 
-
-
 # Custom CSS to wrap up the text in the topmost row
 st.markdown("""
     <style>
@@ -74,10 +73,14 @@ with st.form(key='data_form'):
         if not school_name:
             st.error("Please enter the name of your school.")
         else:
+            # Get the current date
+            current_date = datetime.now().strftime("%Y-%m-%d")
+            
             # Prepare the data for appending to the Google Sheet
             sheet_data = edited_df.values.tolist()
             for row in sheet_data:
                 row.insert(0, school_name)
+                row.insert(0, current_date)
             
             # Append each row to the Google Sheet
             for row in sheet_data:
