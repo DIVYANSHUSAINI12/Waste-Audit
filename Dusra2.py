@@ -32,7 +32,7 @@ rows = 10
 cols = 10
 
 # Define the column names
-column_names = ['Type of Waste', 'Number of Box/beg', 'Weight of the waste in box/bag 1 (in Kg)', 'Weight of the waste in box/bag 2 (in Kg)', 'Weight of the waste in box/bag 3 (in Kg)', 'Total weight (in Kg)', 'Weight of the waste (in Kg)', 'Source/Origin of waste', 'Percentage Total', 'How is it handled currently?']
+column_names = ['Type of Waste', 'Number of Box/bag', 'Weight of the waste in box/bag 1 (in Kg)', 'Weight of the waste in box/bag 2 (in Kg)', 'Weight of the waste in box/bag 3 (in Kg)', 'Total weight (in Kg)', 'Weight of the waste (in Kg)', 'Source/Origin of waste', 'Percentage Total', 'How is it handled currently?']
 
 # Create a DataFrame with the specified number of rows and columns
 data = {
