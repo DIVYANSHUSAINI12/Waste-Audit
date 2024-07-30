@@ -11,7 +11,15 @@ client = gspread.authorize(creds)
 # Open the Google Sheet
 sheet = client.open("Wasteaudit").sheet1  # Use the name of your Google Sheet
 
+st.set_page_config(page_title="Waste Audit", layout="wide")
+col1, col2 = st.columns([1, 1])
 
+with col1:
+    st.image("USAID.png", width=200)
+
+with col2:
+    st.image("images.png", width=150)
+    
 # Title of the app
 st.markdown("<h3>Waste Audit Sheet</h3>", unsafe_allow_html=True)
 
