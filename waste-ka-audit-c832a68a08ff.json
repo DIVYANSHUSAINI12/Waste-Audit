@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "waste-ka-audit",
+  "private_key_id": "c832a68a08fff2e22d88a23b26df7f635cdb77b4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvQwHK2ILsPSu8\nyePwvuj1GLDjSnmuokEK4KvEC8mxT+fngJOKzk3kXX/S4WN0A8r/7vdkRtfeSTLn\nYblST129LBqAeOPjUUpI5wVODnrtnXotEbzDwwZ/RFinN7sWqQKpUC+WEncXVvXj\nzIau2TU0xbjLjuEy8x9F4Cgi/sM2kiDrFBoCP8KOIEtA0NinJeEnzHb83UEcW8dw\nqlNXpBtbhVDmCNtlGRvReHvHUV5czaOsKKkGfqk8xcJ4Qrq6IGDs6PaHRPmZYhm2\njtAuusw75h780dOQ8RG1bxByqT1Y/0mLARIAVjBSgpIqh4Scux0x5W1Z9mIQQEeZ\nE2JjpqWNAgMBAAECggEADkuAw4GDiOQYDkAzqWYnkfQssKvuqbCIwxZzqXF3sZDC\n/sYlN/K0oOOCbUTJIUQ87sFC6D4sqxqyfkkMKKXvZKJgBVS267Usl1kmfN51UYO2\ncc4gT3b3r5ziE+jZsj218/GQdrpfVdCX4jfDUCgdwkXn7ncjME4Vtyk9xNWdk7Ss\nEjz8naZpcliULPEdG3cYqEpsIn7BZKZdbZWmVCNlefjhvybToMkDgcsPaLmPKDxP\nWc99rXi/nYopDQJfq3rxzXLck4aNjmuWa6+Y8cAfePAXe4lLkJknLoaI/cqmMljE\nHOSLBdHTtClI7Nhqxn+r8peAVaV/isiK0oJs70DI6QKBgQDiniqbW2XEhfa8pHrp\ncoZsBp4sJNncrWfIriONoET1cJmMJioI/6re3NiBXrgvDE5Jf48zLV9lohf1SdA/\ncrXfq0ulioqoxGo2chpYzlHkIkmzh+Mskk4fg/Q5Zh14ZBhsPIH4WPOdvSqNz5dA\nDJj8LNsEVCR1/DTnw+gTL9l8WQKBgQDF/D57L192FmaeIWqRvM798OoTEfOFifi0\naivALtmlI8VeecD0ws/vSvQ/4KTYFPlR2/lFl1zXI97wFQxhWku3kwnE+lO4Yva0\nwXJnnJMCMKTM8yILBGWhrNV+bBAVCAtS5Ybd3i4cPnon0AlsztFd1VCz2JtByV6b\n04dsYje8VQKBgGd1jj4fG/b8sgitju/FOVlYLB47NLtq71bPKawe31yua2twgQBa\nuMfGS5HEjJHuLE+hzN6weD0OI6H4cPqGhEH5EjAhb+xcv6DbtuuURg7BGKS+BRj0\nMnZw567Mz+eGyx+fADdBZPc+xY64l3TGS5HVaKgxQfQbkIu/BNS9o60BAoGAc3uN\nqmbYhNXOJ4CQW8/I4SCsOFFpPURcOEgRmvj45LV3w4K7RUl45jhPPg83t/6L6u6n\neKswcSEwQdPVM9fqgHqY4Teuq8e15XtM0xjmOwnKpu1OtyRqb6KTqTk5LDtT95eA\nUlvtg3YB5MUZKkl8oAH0H+NBtF7T+4qn3FVx8z0CgYEAmQdeppuSZ7YK1Z4/eSFr\nDSeDbN8EdLUFXU9rPftCNCm6NFwnBlgP2zASt7qFfRRby+BP9u6Y6ndlJFgnMNKW\nXsqL2eeCYZnKWEK8eCowFvr8dOdYaeDMUI7i3W1LUI91Dq6n0gs+N/JlK2BtB5Lw\nVwUJkaMKeVszkPSbZeyE0ro=\n-----END PRIVATE KEY-----\n",
+  "client_email": "googlesheets@waste-ka-audit.iam.gserviceaccount.com",
+  "client_id": "117102212873089452537",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/googlesheets%40waste-ka-audit.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
