@@ -7,7 +7,7 @@ from datetime import datetime
 # Cache Google Sheets API credentials in Streamlit session state
 if 'creds' not in st.session_state:
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    creds = ServiceAccountCredentials.from_json_keyfile_name("C://Users//Divyanshu//Desktop//Python_Demo//waste-ka-audit-c832a68a08ff.json", scope)
+    creds = ServiceAccountCredentials.from_json_keyfile_name("waste-ka-audit-c832a68a08ff.json", scope)
     st.session_state.creds = creds
 
 client = gspread.authorize(st.session_state.creds)
